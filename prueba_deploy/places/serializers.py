@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Place
 
-class PlaceSerializer (serializers.ModelSerializer):
+class PlaceSerializers(serializers.ModelSerializer):
     
     class Meta:
     
